@@ -21,9 +21,7 @@ app.MapGet("/api/user/validate/{nationalCode}", (string nationalCode) =>
 
 app.MapPost("/api/user/register", async (HttpContext context) =>
 {
-    //using var reader = new StreamReader(context.Request.Body);
-    //var body = await reader.ReadToEndAsync();
-    //return Results.Ok($"دریافت شد: {body}");
+    
 });
 
 app.Run();
